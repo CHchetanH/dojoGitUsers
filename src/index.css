@@ -3,6 +3,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.App {
+	max-width: 500px;
+	margin: auto;
+}
 .navbar {
 	display: flex;
 	justify-content: space-around;
@@ -20,4 +24,18 @@
 	text-align: center;
 	font-size: large;
 	margin: 1rem;
+}
+
+.alluser {
+	margin: 1rem;
+	border-bottom: 2px solid royalblue;
+}
+.alluser h2 {
+	color: crimson;
+	margin-bottom: 1rem;
+}
+
+.alluser h3 {
+	color: blue;
+	margin-bottom: 1rem;
 }
